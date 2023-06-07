@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
-
-/* container - это вся конентная часть */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* font-size: 16px; */
     background: #FFFAF5;
 }
 
@@ -40,8 +35,6 @@ a:focus{
 .header {
     color: #E5E5E5;
     width: 100%;
-    /*
-    position: absolute; */
     top: 0;
     left: 0;
 }
@@ -50,7 +43,6 @@ a:focus{
 .header__wrapper {
     height: 100px;
     display: flex;
-    /*  justify-content: space-between; */
     align-items: center;
 }
 
@@ -71,7 +63,6 @@ a:focus{
 }
 
 .nav__link {
-    /*margin-right: 40px;*/
     color: #5A5A5A;
     text-decoration: none;
     font-weight: 600;
@@ -103,22 +94,12 @@ a:focus{
     width: 24px;
     height: 24px;
     margin-right: 45px;
-    /*
-    margin-left: -30px;
-    margin-right: 45px;
-    margin-top: 4px;
-    */
 }
 
 .strelochka2 img {
     width: 24px;
     height: 24px;
     margin-right: 45px;
-    /*
-    margin-left: -30px;
-    margin-right: 100px;
-    margin-top: 4px;
-    */
 }
 
 .arrowDown {
@@ -227,8 +208,6 @@ a:focus{
     margin-left: 107px;
 }
 
-
-
 /* Intro End */
 
 
@@ -250,18 +229,6 @@ a:focus{
     border-radius: 14px;
 }
 
-/*
-.unionTesti{
-    
-    z-index: 1;
-    position: absolute;
-    width: 1080px;
-    height: 196px;
-    left: 0px;
-    top: 0px;
-    border-radius: 14px;
-}
-*/
 .unionTesti img {
     background-repeat: no-repeat;
     position: absolute;
@@ -281,10 +248,6 @@ a:focus{
 
 .content1 {
     /* Content 1 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -296,9 +259,6 @@ a:focus{
 
 .label {
     /* Label */
-
-
-    /* Auto layout */
     font-family: 'Poppins';
     font-style: normal;
     align-items: center;
@@ -314,11 +274,6 @@ a:focus{
 
 .content {
     /* Content */
-
-
-    /* Auto layout */
-
-
     padding: 2px 10px;
     gap: 10px;
     font-weight: 600;
@@ -331,10 +286,6 @@ a:focus{
 
 .content2 {
     /* Content 1 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -346,10 +297,6 @@ a:focus{
 
 .content3 {
     /* Content 1 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -362,10 +309,6 @@ a:focus{
 
 .frame14 {
     /* Frame 14 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -385,20 +328,7 @@ a:focus{
     color: #FEE4DF
 }
 
-/* Frame 13 */
 .frame13 {
-    /*
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: white;
-    margin-top: 41px;
-    */
-    /* Frame 13 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -407,10 +337,6 @@ a:focus{
 
     width: 291px;
     height: 196px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -428,9 +354,8 @@ a:focus{
     display: flex;
     align-items: center;
     letter-spacing: -0.017em;
-    /* Light / Light 4 */
     color: #FFFFFF;
-    /* Inside auto layout */
+
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -442,7 +367,6 @@ a:focus{
     /* We adopted our puppy. Althought I was skeptical, everything turned out perfect! */
     width: 291px;
     height: 40px;
-    /* Text M/Regular */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -451,9 +375,7 @@ a:focus{
     display: flex;
     align-items: center;
     letter-spacing: -0.006em;
-    /* Light / Light 4 */
     color: #FFFFFF;
-    /* Inside auto layout */
     margin: 0 auto;
     flex: none;
     order: 1;
@@ -462,15 +384,15 @@ a:focus{
 
 .rectangle10{
     position: absolute;
-width: 847px;
-height: 196px;
-left: 140px;
-top: 36px;
-background: #F87661;
-opacity: 0.5;
-filter: blur(50px);
-border-radius: 16px;
-z-index: -2;
+    width: 847px;
+    height: 196px;
+    left: 140px;
+    top: 36px;
+    background: #F87661;
+    opacity: 0.5;
+    filter: blur(50px);
+    border-radius: 16px;
+    z-index: -2;
 }
 
 /* ----SECTION 2 END---- */
@@ -484,13 +406,6 @@ z-index: -2;
     width: 1243px;
     margin: auto;
 }
-
-
-.slider__content {
-    transition: transform 3s linear;
-}
-
-
 .slider__wrapper {
     margin-top: 64px;
     display: flex;
@@ -512,24 +427,8 @@ z-index: -2;
     line-height: 64px;
     color: #333333;
 }
-
-.box {
-    display: inline-block;
-    /* вывод блоков в одну линию */
-    width: 100px;
-    /* ширина блоков */
-    height: 100px;
-    /* высота блоков */
-    margin: 0 20px;
-    /* отступ между блоками */
-    background-color: red;
-    /* цвет фона блоков */
-}
-
-
 .frame19 {
     /* Frame 19 */
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -540,21 +439,16 @@ z-index: -2;
     width: 517px;
     height: 48px;
     margin-left: 160px;
-    /* Text L/Regular */
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
     text-align: center;
     letter-spacing: -0.011em;
-    /* Dark / Dark 2 */
     color: #828282;
 
 }
-
-
 
 .frame20 {
     display: flex;
@@ -642,7 +536,6 @@ z-index: -2;
 .buttonProfile2:focus {
     color: rgb(188, 211, 56);
 }
-
 
 
 
@@ -810,7 +703,6 @@ z-index: -2;
     letter-spacing: -0.01em;
     color: #333333;
     margin-left: 95.87px;
-    /* margin-top: 190px; */
     margin-top: 130px;
 }
 
@@ -835,7 +727,6 @@ z-index: -2;
     letter-spacing: -0.011em;
     color: #828282;
     position: absolute;
-    /* top: 1740px; */
     margin-top: 159px;
 
 }
@@ -901,29 +792,12 @@ z-index: -2;
     color: #5A5A5A;
 
 }
-/*
 .dogRectangle {
-    width: 279px;
-    height: 446px;
-    position: absolute;
-    left: 1030px;
-    top: 1602px;
-    background: #F87661;
-    mix-blend-mode: multiply;
-    opacity: 0.3;
-    color: rgba(248, 118, 97, 1);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 200px;
-
-}
-*/
-.dogRectangle{
     margin-left: 613px;
     position: absolute;
     top: 44px;
 }
-
-.sentencesGalochki{
+.sentencesGalochki {
     position: absolute;
     top: 338px;
     margin-left: 136px;
@@ -1049,7 +923,7 @@ z-index: -2;
 }
 
 
-.footer__text{
+.footer__text {
     text-decoration: none;
     margin-left: 15px;
     color: #42766C;
